@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_names">
+        <item>Смартфон HONOR 30 BMH-AN10</item>
+        <item>Смартфон Samsung Galaxy A31 SM-A315F/DS</item>
+        <item>Смартфон HONOR 9C AKA-L29</item>
+        <item>Смартфон Xiaomi Mi Note 10 Lite</item>
+        <item>Смартфон Samsung Galaxy M31 SM-M315F/DSN</item>
+
+
+
+    </string-array>
+    <array name="product_prices">
+        <item>1299.0</item>
+        <item>568.0</item>
+        <item>449.0</item>
+        <item>1079.0</item>
+        <item>660.0</item>
+
+
+
+
+
+    </array>
+    <string-array name="product_image_urls">
+        <item>https://content2.onliner.by/catalog/device/main/4d71a888a7b03bfa4f546fbabf11b573.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/d8d0150ca30aaf0eae65a35fb13cc150.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/a1b62c65cacfc91ad39e6f92ef15dc63.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/c8ab72a41f2fd9b9b1473d871ed47d76.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/6e00528a9fc04a153eb5500b85e80a13.jpeg</item>
+
+
+
+
+
+    </string-array>
+    <string-array name="product_descriptions">
+        <item>Android, экран 6.53" OLED (1080x2400), HiSilicon Kirin 985, ОЗУ 8 ГБ, флэш-память 256 ГБ, карты памяти, камера 40 Мп, аккумулятор 4000 мАч, 2 SIM</item>
+        <item>Android, экран 6.4" AMOLED (1080x2400), Mediatek MT6768 Helio P65, ОЗУ 4 ГБ, флэш-память 128 ГБ, карты памяти, камера 48 Мп, аккумулятор 5000 мАч, 2 SIM</item>
+        <item>Android, экран 6.39" IPS (720x1560), HiSilicon Kirin 710, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 48 Мп, аккумулятор 4000 мАч, 2 SIM</item>
+        <item>Android, экран 6.47" AMOLED (1080x2340), Qualcomm Snapdragon 730G, ОЗУ 8 ГБ, флэш-память 128 ГБ, камера 64 Мп, аккумулятор 5260 мАч, 2 SIM</item>
+        <item>Android, экран 6.4" AMOLED (1080x2340), Exynos 9611, ОЗУ 6 ГБ, флэш-память 128 ГБ, карты памяти, камера 64 Мп, аккумулятор 6000 мАч, 2 SIM</item>
+
+
+
+
+    </string-array>
+    
+    
+    
+    
+    
+</resources>
