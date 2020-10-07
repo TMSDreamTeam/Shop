@@ -7,6 +7,11 @@
         <item>Смартфон Xiaomi Mi Note 10 Lite</item>
         <item>Смартфон Samsung Galaxy M31 SM-M315F/DSN</item>
 
+        <item>Телевизор Samsung UE43TU8000U</item>
+        <item>Телевизор Xiaomi MI TV 4S 43"</item>
+        <item>Телевизор KIVI 55U600GR</item>
+        <item>Телевизор Thomson T55USL7000</item>
+        <item>Телевизор Samsung UE32T5300AU</item>
 
 
     </string-array>
@@ -17,8 +22,11 @@
         <item>1079.0</item>
         <item>660.0</item>
 
-
-
+        <item>1117.0</item>
+        <item>855.0</item>
+        <item>1020.0</item>
+        <item>1150.0</item>
+        <item>663.0</item>
 
 
     </array>
@@ -29,8 +37,11 @@
         <item>https://content2.onliner.by/catalog/device/main/c8ab72a41f2fd9b9b1473d871ed47d76.jpeg</item>
         <item>https://content2.onliner.by/catalog/device/main/6e00528a9fc04a153eb5500b85e80a13.jpeg</item>
 
-
-
+        <item>https://content2.onliner.by/catalog/device/main/0d5b8cb8141ba769938a9230597756bd.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/4f0c6bfac7c079a9d16553db5f79e26b.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/2bd88252c685c660fbf3c014e484fef3.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/b812c0b1d2f20460c190b8e25ca8fba1.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/a5d446091a92f25109f8d34d2b41104f.jpeg</item>
 
 
     </string-array>
@@ -41,13 +52,14 @@
         <item>Android, экран 6.47" AMOLED (1080x2340), Qualcomm Snapdragon 730G, ОЗУ 8 ГБ, флэш-память 128 ГБ, камера 64 Мп, аккумулятор 5260 мАч, 2 SIM</item>
         <item>Android, экран 6.4" AMOLED (1080x2340), Exynos 9611, ОЗУ 6 ГБ, флэш-память 128 ГБ, карты памяти, камера 64 Мп, аккумулятор 6000 мАч, 2 SIM</item>
 
-
+        <item>43" 3840x2160 (4K UHD), матрица VA, частота матрицы 50 Гц, индекс динамичных сцен 2100, Smart TV (Samsung Tizen), HDR, Wi-Fi</item>
+        <item>43" 3840x2160 (4K UHD), матрица IPS, частота матрицы 50 Гц, Smart TV (Android TV), HDR, Wi-Fi</item>
+        <item>55" 3840x2160 (4K UHD), матрица VA, частота матрицы 50 Гц, Smart TV (Android), Wi-Fi</item>
+        <item>55" 3840x2160 (4K UHD), матрица VA, частота матрицы 50 Гц, Smart TV (Android TV), Wi-Fi</item>
+        <item>32" 1920x1080 (Full HD), частота матрицы 50 Гц, индекс динамичных сцен 1000, Smart TV (Samsung Tizen), Wi-Fi</item>
 
 
     </string-array>
-    
-    
-    
-    
-    
+
+
 </resources>
