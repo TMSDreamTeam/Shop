@@ -17,6 +17,11 @@
         <item>Телевизор KIVI 55U600GR</item>
         <item>Телевизор Thomson T55USL7000</item>
         <item>Телевизор Samsung UE32T5300AU</item>
+        <item>Телевизор LG 43UK6200</item>
+        <item>Телевизор LG 32LM570BPLA</item>
+        <item>Телевизор LG 32LM6350PLA</item>
+        <item>Телевизор LG 49SM9000PLA</item>
+        <item>Телевизор Samsung UE24N4500AU</item>
 
 
     </string-array>
@@ -37,6 +42,11 @@
         <item>1020.0</item>
         <item>1150.0</item>
         <item>663.0</item>
+        <item>841.0</item>
+        <item>543.0</item>
+        <item>748.0</item>
+        <item>2720.0</item>
+        <item>435.0</item>
 
 
     </array>
@@ -57,6 +67,11 @@
         <item>https://content2.onliner.by/catalog/device/main/2bd88252c685c660fbf3c014e484fef3.jpeg</item>
         <item>https://content2.onliner.by/catalog/device/main/b812c0b1d2f20460c190b8e25ca8fba1.jpeg</item>
         <item>https://content2.onliner.by/catalog/device/main/a5d446091a92f25109f8d34d2b41104f.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/c0231f75dfc0b85b5874c471f086db13.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/777e12d9ad7b7455dd92e9055626a191.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/ee9a41059c5c3108bf2f5a2f27e45ab7.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/7583b17ef7ce7ef7c76e73e582ccf58b.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/943376fbcda95025510cc16547c5ffcc.jpeg</item>
 
 
     </string-array>
@@ -77,6 +92,11 @@
         <item>55" 3840x2160 (4K UHD), матрица VA, частота матрицы 50 Гц, Smart TV (Android), Wi-Fi</item>
         <item>55" 3840x2160 (4K UHD), матрица VA, частота матрицы 50 Гц, Smart TV (Android TV), Wi-Fi</item>
         <item>32" 1920x1080 (Full HD), частота матрицы 50 Гц, индекс динамичных сцен 1000, Smart TV (Samsung Tizen), Wi-Fi</item>
+        <item>43" 3840x2160 (4K UHD), матрица IPS, частота матрицы 50 Гц, Smart TV (LG webOS), HDR, Wi-Fi</item>
+        <item>32" 1366x768 (HD), частота матрицы 50 Гц, Smart TV (LG webOS), Wi-Fi</item>
+        <item>32" 1920x1080 (Full HD), частота матрицы 50 Гц, Smart TV (LG webOS), HDR, Wi-Fi</item>
+        <item>49" 3840x2160 (4K UHD), матрица IPS, частота матрицы 100 Гц, Smart TV (LG webOS), HDR, Wi-Fi</item>
+        <item>24" 1366x768 (HD), частота матрицы 50 Гц, индекс динамичных сцен 400, Smart TV (Samsung Tizen), Wi-Fi</item>
 
 
     </string-array>
