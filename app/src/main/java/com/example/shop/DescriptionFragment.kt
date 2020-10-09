@@ -28,5 +28,9 @@ class DescriptionFragment : Fragment() {
         descriptionDescription.text = Catalog.selectedItem.description
 
         Picasso.get().load(Catalog.selectedItem.photoUrl).into(descriptionImage)
+
+        btnAdd.setOnClickListener{
+            User.instance.setCart.add(Catalog.selectedItem)
+        }
     }
 }
