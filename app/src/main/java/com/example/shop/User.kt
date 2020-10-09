@@ -9,9 +9,9 @@ data class Item(
 
 class User private constructor(){
 
-    val login: String =""
-    val password: String = ""
-    val isRegister =false
+    var login: String =""
+    var password: String = ""
+    var isRegister =false
     val setCart = ArrayList<Item>()
 
     companion object {
