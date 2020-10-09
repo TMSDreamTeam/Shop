@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragment_description.*
 
@@ -22,14 +23,16 @@ class DescriptionFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         descriptionName.text = Catalog.selectedItem.name
         descriptionPrice.text = Catalog.selectedItem.price
         descriptionDescription.text = Catalog.selectedItem.description
 
         Picasso.get().load(Catalog.selectedItem.photoUrl).into(descriptionImage)
-
+        val nav=findNavController()
         btnAdd.setOnClickListener{
+            if (!User.instance.isRegister){
+                nav.navigate(R.id.action_fragment_description_to_fragment_registration)
+            }
             User.instance.setCart.add(Catalog.selectedItem)
         }
     }

@@ -1,16 +1,21 @@
 package com.example.shop
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.NavHostFragment.findNavController
+
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.fragment_catalog.view.*
+
 import kotlinx.android.synthetic.main.item_view.view.*
 
-class RecyclerItemAdapter(private val list: List<Item>) : RecyclerView.Adapter<RecyclerItemAdapter.ItemViewHolder>() {
+class RecyclerItemAdapter(private val list: List<Item>, private val context:Fragment) : RecyclerView.Adapter<RecyclerItemAdapter.ItemViewHolder>() {
     interface ItemClick{
-        fun onItemClick(position: Int)
-
+        fun navigateToDescription()
     }
     class ItemViewHolder(view: View) : RecyclerView.ViewHolder(view)
 
@@ -29,5 +34,10 @@ class RecyclerItemAdapter(private val list: List<Item>) : RecyclerView.Adapter<R
         holder.itemView.item_name.text=list[position].name
         holder.itemView.item_price.text=list[position].price
         Catalog.selectedItem=list[position]
+        holder.itemView.item_container.setOnClickListener {
+            val nav= context as ItemClick
+            nav.navigateToDescription()
+        }
+
     }
 }

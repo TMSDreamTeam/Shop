@@ -22,11 +22,11 @@ class CartFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val adapter = RecyclerItemAdapter(User.instance.setCart)
+        val adapter = RecyclerItemAdapter(User.instance.setCart,this)
 
         if (User.instance.setCart.isNotEmpty()){
         recyclerCart.adapter = adapter
-        recyclerCart.layoutManager = LinearLayoutManager(view.context)
+        recyclerCart.layoutManager = LinearLayoutManager(context)
         recyclerCart.hasFixedSize()}
 
         btnOrder.setOnClickListener {
