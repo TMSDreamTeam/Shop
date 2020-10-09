@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragment_description.*
@@ -32,8 +33,11 @@ class DescriptionFragment : Fragment() {
         btnAdd.setOnClickListener{
             if (!User.instance.isRegister){
                 nav.navigate(R.id.action_fragment_description_to_fragment_registration)
+            }else {
+                User.instance.setCart.add(Catalog.selectedItem)
+                Toast.makeText(view.context, "Added to cart", Toast.LENGTH_SHORT).show()
+                findNavController().popBackStack()
             }
-            User.instance.setCart.add(Catalog.selectedItem)
         }
     }
 }

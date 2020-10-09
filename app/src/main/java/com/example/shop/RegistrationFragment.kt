@@ -7,10 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.android.synthetic.main.fragment_registration.*
 
-class RegistrationFragment: Fragment() {
+class RegistrationFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -36,11 +37,12 @@ class RegistrationFragment: Fragment() {
                             User.instance.password = materialPassET.text.toString()
                             User.instance.isRegister = true
 
+                            findNavController().popBackStack()
+
                         }
                         .show()
                 } else materialPass.helperText = "Пароль должен содержать не менее 8 символов"
-            }else materialTextField.helperText = "Имя не должно быть пустым"
+            } else materialTextField.helperText = "Имя не должно быть пустым"
         }
-        }
-
     }
+}
