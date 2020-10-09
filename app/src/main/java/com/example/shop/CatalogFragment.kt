@@ -38,6 +38,13 @@ class CatalogFragment : Fragment() {
             adapter = viewAdapter
 
         }
+        topAppBar.setOnMenuItemClickListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.cart -> {
+
+                }
+                else -> true
+            }
     }
 
 
