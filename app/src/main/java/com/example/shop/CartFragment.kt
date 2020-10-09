@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.fragment_cart.*
 
 class CartFragment : Fragment() {
@@ -20,6 +21,13 @@ class CartFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        val adapter = RecyclerItemAdapter(User.instance.setCart)
+
+        if (User.instance.setCart.isNotEmpty()){
+        recyclerCart.adapter = adapter
+        recyclerCart.layoutManager = LinearLayoutManager(view.context)
+        recyclerCart.hasFixedSize()}
 
         btnOrder.setOnClickListener {
             if (User.instance.setCart.isNotEmpty()) {
