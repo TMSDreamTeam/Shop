@@ -30,7 +30,7 @@ class CatalogFragment : Fragment() {
         }
 
         val viewManager = LinearLayoutManager(context)
-        val viewAdapter = RecycleItemAdapter(Catalog.catalog)
+        val viewAdapter = RecyclerItemAdapter(Catalog.catalog)
 
         recyclerView_catalog.apply {
             setHasFixedSize(true)
