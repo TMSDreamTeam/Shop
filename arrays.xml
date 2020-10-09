@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_names">
+        <item>Смартфон HONOR 30 BMH-AN10</item>
+        <item>Смартфон Samsung Galaxy A31 SM-A315F/DS</item>
+        <item>Смартфон HONOR 9C AKA-L29</item>
+        <item>Смартфон Xiaomi Mi Note 10 Lite</item>
+        <item>Смартфон Samsung Galaxy M31 SM-M315F/DSN</item>
+        <item>Смартфон Samsung Galaxy A71 SM-A715F/DSM</item>
+        <item>Смартфон Xiaomi Redmi 7A</item>
+        <item>Смартфон Xiaomi Redmi Note </item>
+        <item>Смартфон Xiaomi Redmi Note 9 Pro</item>
+        <item>Смартфон Samsung Galaxy A51 SM-A515F/DS</item>
+
+        <item>Телевизор Samsung UE43TU8000U</item>
+        <item>Телевизор Xiaomi MI TV 4S 43"</item>
+        <item>Телевизор KIVI 55U600GR</item>
+        <item>Телевизор Thomson T55USL7000</item>
+        <item>Телевизор Samsung UE32T5300AU</item>
+        <item>Телевизор LG 43UK6200</item>
+        <item>Телевизор LG 32LM570BPLA</item>
+        <item>Телевизор LG 32LM6350PLA</item>
+        <item>Телевизор LG 49SM9000PLA</item>
+        <item>Телевизор Samsung UE24N4500AU</item>
+
+        <item>Наушники HONOR Сhoice Moecen True Wireless Stereo Earbuds CE79</item>
+        <item>Наушники YS inPods</item>
+        <item>Наушники SteelSeries Arctis 1 Wireless</item>
+        <item>Наушники Elari NanoPods (белый)</item>
+        <item>Наушники QCY T5 (черный)</item>
+        <item>Наушники Apple AirPods 2 в зарядном футляре</item>
+        <item>Наушники Xiaomi Mi True Wireless Earbuds TWSEJO4LS (международная версия)</item>
+        <item>Наушники Apple AirPods Pro MWP22</item>
+        <item>Наушники Xiaomi Redmi AirDots S TWSEJ05LS (китайская версия)</item>
+        <item>Наушники 9-9 Sound Drop (черный)</item>
+
+
+    </string-array>
+    <array name="product_prices">
+        <item>1299.0</item>
+        <item>568.0</item>
+        <item>449.0</item>
+        <item>1079.0</item>
+        <item>660.0</item>
+        <item>810.0</item>
+        <item>249.0</item>
+        <item>490.0</item>
+        <item>748.0</item>
+        <item>590.0</item>
+
+        <item>1117.0</item>
+        <item>855.0</item>
+        <item>1020.0</item>
+        <item>1150.0</item>
+        <item>663.0</item>
+        <item>841.0</item>
+        <item>543.0</item>
+        <item>748.0</item>
+        <item>2720.0</item>
+        <item>435.0</item>
+
+        <item>159.00</item>
+        <item>84.89</item>
+        <item>338.73</item>
+        <item>94.05</item>
+        <item>61.00</item>
+        <item>384.00</item>
+        <item>57.94</item>
+        <item>609.00</item>
+        <item>52.99</item>
+        <item>115.00</item>
+
+
+    </array>
+    <string-array name="product_image_urls">
+        <item>https://content2.onliner.by/catalog/device/header/4d71a888a7b03bfa4f546fbabf11b573.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/header/d8d0150ca30aaf0eae65a35fb13cc150.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/header/a1b62c65cacfc91ad39e6f92ef15dc63.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/header/c8ab72a41f2fd9b9b1473d871ed47d76.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/header/6e00528a9fc04a153eb5500b85e80a13.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/header/1bcac5ffb0d7e5da6d717da0ea050e4a.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/header/3ec9f9eaad1c933a79f4d0925413d741.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/header/1f18a8f6f97717dc3c6cacaa0fad7334.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/header/82f7f8728bf72e112a18df95092eaf9e.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/header/04072f3f45750926cd7199984ae68153.jpeg</item>
+
+        <item>https://content2.onliner.by/catalog/device/main/0d5b8cb8141ba769938a9230597756bd.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/4f0c6bfac7c079a9d16553db5f79e26b.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/2bd88252c685c660fbf3c014e484fef3.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/b812c0b1d2f20460c190b8e25ca8fba1.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/a5d446091a92f25109f8d34d2b41104f.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/c0231f75dfc0b85b5874c471f086db13.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/777e12d9ad7b7455dd92e9055626a191.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/ee9a41059c5c3108bf2f5a2f27e45ab7.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/7583b17ef7ce7ef7c76e73e582ccf58b.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/943376fbcda95025510cc16547c5ffcc.jpeg</item>
+
+        <item>https://content2.onliner.by/catalog/device/main/bc942d884626214760466d679c0bdb39.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/f9b97593de6897a2040a81bcfad8bfac.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/a083ff02ad7fbf34b4e749ccd05d6fc5.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/fd7b478a205bdea20e615065f57c2417.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/938ade87b8f5707fa2ca0c69f67ebc2c.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/ff08950511e0b70a1cd81c7e780dabf1.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/beaca4af835a021b38198671bd110757.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/9fdb7c833aab7fa921691e4dad4f7c3d.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/ded3a3bffd5eab9c599609ea6dce6d80.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/9a7a523bd9df5d93ea75e67ee4bbf590.jpeg</item>
+
+
+    </string-array>
+    <string-array name="product_descriptions">
+        <item>Android, экран 6.53" OLED (1080x2400), HiSilicon Kirin 985, ОЗУ 8 ГБ, флэш-память 256 ГБ, карты памяти, камера 40 Мп, аккумулятор 4000 мАч, 2 SIM</item>
+        <item>Android, экран 6.4" AMOLED (1080x2400), Mediatek MT6768 Helio P65, ОЗУ 4 ГБ, флэш-память 128 ГБ, карты памяти, камера 48 Мп, аккумулятор 5000 мАч, 2 SIM</item>
+        <item>Android, экран 6.39" IPS (720x1560), HiSilicon Kirin 710, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 48 Мп, аккумулятор 4000 мАч, 2 SIM</item>
+        <item>Android, экран 6.47" AMOLED (1080x2340), Qualcomm Snapdragon 730G, ОЗУ 8 ГБ, флэш-память 128 ГБ, камера 64 Мп, аккумулятор 5260 мАч, 2 SIM</item>
+        <item>Android, экран 6.4" AMOLED (1080x2340), Exynos 9611, ОЗУ 6 ГБ, флэш-память 128 ГБ, карты памяти, камера 64 Мп, аккумулятор 6000 мАч, 2 SIM</item>
+        <item>Android, экран 6.7" AMOLED (1080x2400), Qualcomm Snapdragon 730, ОЗУ 6 ГБ, флэш-память 128 ГБ, карты памяти, камера 64 Мп, аккумулятор 4500 мАч, 2 SIM</item>
+        <item>Android, экран 5.45" IPS (720x1440), Qualcomm Snapdragon 439, ОЗУ 2 ГБ, флэш-память 32 ГБ, карты памяти, камера 12 Мп, аккумулятор 4000 мАч, 2 SIM</item>
+        <item>Android, экран 6.3" IPS (1080x2340), Qualcomm Snapdragon 665, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 48 Мп, аккумулятор 4000 мАч, 2 SIM</item>
+        <item>Android, экран 6.67" IPS (1080x2400), Qualcomm Snapdragon 720G, ОЗУ 6 ГБ, флэш-память 128 ГБ, карты памяти, камера 64 Мп, аккумулятор 5020 мАч, 2 SIM</item>
+        <item>Android, экран 6.5" AMOLED (1080x2400), Exynos 9611, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 48 Мп, аккумулятор 4000 мАч, 2 SIM</item>
+
+        <item>43" 3840x2160 (4K UHD), матрица VA, частота матрицы 50 Гц, индекс динамичных сцен 2100, Smart TV (Samsung Tizen), HDR, Wi-Fi</item>
+        <item>43" 3840x2160 (4K UHD), матрица IPS, частота матрицы 50 Гц, Smart TV (Android TV), HDR, Wi-Fi</item>
+        <item>55" 3840x2160 (4K UHD), матрица VA, частота матрицы 50 Гц, Smart TV (Android), Wi-Fi</item>
+        <item>55" 3840x2160 (4K UHD), матрица VA, частота матрицы 50 Гц, Smart TV (Android TV), Wi-Fi</item>
+        <item>32" 1920x1080 (Full HD), частота матрицы 50 Гц, индекс динамичных сцен 1000, Smart TV (Samsung Tizen), Wi-Fi</item>
+        <item>43" 3840x2160 (4K UHD), матрица IPS, частота матрицы 50 Гц, Smart TV (LG webOS), HDR, Wi-Fi</item>
+        <item>32" 1366x768 (HD), частота матрицы 50 Гц, Smart TV (LG webOS), Wi-Fi</item>
+        <item>32" 1920x1080 (Full HD), частота матрицы 50 Гц, Smart TV (LG webOS), HDR, Wi-Fi</item>
+        <item>49" 3840x2160 (4K UHD), матрица IPS, частота матрицы 100 Гц, Smart TV (LG webOS), HDR, Wi-Fi</item>
+        <item>24" 1366x768 (HD), частота матрицы 50 Гц, индекс динамичных сцен 400, Smart TV (Samsung Tizen), Wi-Fi</item>
+
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 5.0, быстрая зарядка, время работы 6 ч</item>
+        <item>беспроводные наушники с микрофоном, вставные, портативные, Bluetooth 5.0, 20-20000 Гц, время работы 3 ч</item>
+        <item>беспроводные наушники с микрофоном, мониторные (охватывающие), геймерские, 20-20000 Гц, время работы 20 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 4.2, 20-20000 Гц, время работы 4.5 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 5.0, время работы 5 ч</item>
+        <item>беспроводные наушники с микрофоном, вставные, портативные, Bluetooth, быстрая зарядка, время работы 5 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 5.0, 20-20000 Гц, время работы 4 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 5.0, быстрая зарядка, время работы 5 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 5.0, 20-20000 Гц, время работы 4 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные/спортивные, Bluetooth 5.0, 20-24000 Гц, время работы 4 ч</item>
+
+
+    </string-array>
+
+
+</resources>
