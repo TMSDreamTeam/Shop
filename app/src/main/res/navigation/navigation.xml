@@ -42,5 +42,8 @@
         android:name="com.example.shop.CartFragment"
         >
 
+        <action
+            android:id="@+id/action_fragment_cart_to_fragment_description"
+            app:destination="@id/fragment_description" />
     </fragment>
 </navigation>

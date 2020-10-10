@@ -26,7 +26,6 @@ class DescriptionFragment : Fragment() {
         descriptionName.text = Catalog.selectedItem.name
         descriptionPrice.text = Catalog.selectedItem.price
         descriptionDescription.text = Catalog.selectedItem.description
-
         Picasso.get().load(Catalog.selectedItem.photoUrl).into(descriptionImage)
         val nav=findNavController()
         btnAdd.setOnClickListener{

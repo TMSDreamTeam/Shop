@@ -1,6 +1,6 @@
 package com.example.shop
 
-import android.util.ArraySet
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +11,7 @@ import com.squareup.picasso.Picasso
 
 import kotlinx.android.synthetic.main.item_view.view.*
 
-class RecyclerItemAdapter(private val set: ArraySet<Item>, private val fragment:Fragment) : RecyclerView.Adapter<RecyclerItemAdapter.ItemViewHolder>() {
+class RecyclerItemAdapter(private val list: ArrayList<Item>, private val fragment:Fragment) : RecyclerView.Adapter<RecyclerItemAdapter.ItemViewHolder>() {
     interface ItemClick{
         fun navigateToDescription()
     }
@@ -23,14 +23,14 @@ class RecyclerItemAdapter(private val set: ArraySet<Item>, private val fragment:
 
     }
 
-    override fun getItemCount() = set.size
+    override fun getItemCount() = list.size
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
-        Picasso.get().load(set.valueAt(position).photoUrl).into(holder.itemView.item_image)
-        holder.itemView.item_name.text=set.valueAt(position).name
-        holder.itemView.item_price.text=set.valueAt(position).price
-        Catalog.selectedItem=set.valueAt(position)
+        Picasso.get().load(list[position].photoUrl).into(holder.itemView.item_image)
+        holder.itemView.item_name.text=list[position].name
+        holder.itemView.item_price.text=list[position].price
         holder.itemView.item_container.setOnClickListener {
+            Catalog.selectedItem=list[position]
             val nav= fragment as ItemClick
             nav.navigateToDescription()
         }

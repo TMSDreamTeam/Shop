@@ -1,7 +1,7 @@
 package com.example.shop
-import android.util.ArraySet
+
 
 object Catalog {
-    val catalog = ArraySet<Item>()
+    val catalog = ArrayList<Item>()
     lateinit var selectedItem:Item
 }

@@ -6,10 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.fragment_cart.*
 
-class CartFragment : Fragment() {
+class CartFragment : Fragment() ,RecyclerItemAdapter.ItemClick{
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -39,5 +40,10 @@ class CartFragment : Fragment() {
             } else Toast.makeText(view.context, "Your shopping cart is empty", Toast.LENGTH_SHORT)
                 .show()
         }
+    }
+
+    override fun navigateToDescription() {
+        val nav=findNavController()
+        nav.navigate(R.id.action_fragment_cart_to_fragment_description)
     }
 }
