@@ -27,7 +27,7 @@ class RecyclerMenuAdapter(private  val listMenu: List<Menu>, private val fragmen
 
         holder.itemView.item_menu.setOnClickListener {
             val btnMenu = listMenu[position].name
-            val nav = fragment as RecyclerMenuAdapter.MenuClick
+            val nav = fragment as MenuClick
             nav.onBtnMenu(btnMenu)
         }
     }

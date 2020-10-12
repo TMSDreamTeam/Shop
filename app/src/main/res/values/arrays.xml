@@ -23,6 +23,17 @@
         <item>Телевизор LG 49SM9000PLA</item>
         <item>Телевизор Samsung UE24N4500AU</item>
 
+        <item>Наушники HONOR Сhoice Moecen </item>
+        <item>Наушники YS inPods</item>
+        <item>Наушники SteelSeries Arctis 1 </item>
+        <item>Наушники Elari NanoPods</item>
+        <item>Наушники QCY T5</item>
+        <item>Наушники Apple AirPods 2</item>
+        <item>Наушники Xiaomi Mi True Wireless</item>
+        <item>Наушники Apple AirPods Pro MWP22</item>
+        <item>Наушники Xiaomi Redmi AirDots S </item>
+        <item>Наушники 9-9 Sound Drop</item>
+
 
     </string-array>
     <string-array name="product_prices">
@@ -47,6 +58,17 @@
         <item>748.0</item>
         <item>2720.0</item>
         <item>435.0</item>
+
+        <item>159.00</item>
+        <item>84.89</item>
+        <item>338.73</item>
+        <item>94.05</item>
+        <item>61.00</item>
+        <item>384.00</item>
+        <item>57.94</item>
+        <item>609.00</item>
+        <item>52.99</item>
+        <item>115.00</item>
 
 
     </string-array>
@@ -73,6 +95,17 @@
         <item>https://content2.onliner.by/catalog/device/main/7583b17ef7ce7ef7c76e73e582ccf58b.jpeg</item>
         <item>https://content2.onliner.by/catalog/device/main/943376fbcda95025510cc16547c5ffcc.jpeg</item>
 
+        <item>https://content2.onliner.by/catalog/device/main/bc942d884626214760466d679c0bdb39.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/f9b97593de6897a2040a81bcfad8bfac.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/a083ff02ad7fbf34b4e749ccd05d6fc5.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/fd7b478a205bdea20e615065f57c2417.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/938ade87b8f5707fa2ca0c69f67ebc2c.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/ff08950511e0b70a1cd81c7e780dabf1.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/beaca4af835a021b38198671bd110757.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/9fdb7c833aab7fa921691e4dad4f7c3d.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/ded3a3bffd5eab9c599609ea6dce6d80.jpeg</item>
+        <item>https://content2.onliner.by/catalog/device/main/9a7a523bd9df5d93ea75e67ee4bbf590.jpeg</item>
+
 
     </string-array>
     <string-array name="product_descriptions">
@@ -97,6 +130,17 @@
         <item>32" 1920x1080 (Full HD), частота матрицы 50 Гц, Smart TV (LG webOS), HDR, Wi-Fi</item>
         <item>49" 3840x2160 (4K UHD), матрица IPS, частота матрицы 100 Гц, Smart TV (LG webOS), HDR, Wi-Fi</item>
         <item>24" 1366x768 (HD), частота матрицы 50 Гц, индекс динамичных сцен 400, Smart TV (Samsung Tizen), Wi-Fi</item>
+
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 5.0, быстрая зарядка, время работы 6 ч</item>
+        <item>беспроводные наушники с микрофоном, вставные, портативные, Bluetooth 5.0, 20-20000 Гц, время работы 3 ч</item>
+        <item>беспроводные наушники с микрофоном, мониторные (охватывающие), геймерские, 20-20000 Гц, время работы 20 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 4.2, 20-20000 Гц, время работы 4.5 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 5.0, время работы 5 ч</item>
+        <item>беспроводные наушники с микрофоном, вставные, портативные, Bluetooth, быстрая зарядка, время работы 5 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 5.0, 20-20000 Гц, время работы 4 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 5.0, быстрая зарядка, время работы 5 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные, Bluetooth 5.0, 20-20000 Гц, время работы 4 ч</item>
+        <item>беспроводные наушники с микрофоном, внутриканальные, портативные/спортивные, Bluetooth 5.0, 20-24000 Гц, время работы 4 ч</item>
 
 
     </string-array>

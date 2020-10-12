@@ -3,4 +3,10 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="cart">cart</string>
+    <string name="name_registration">name</string>
+    <string name="password_registration">password</string>
+    <string name="btn_registration">Registration</string>
+    <string name="btn_add">Add</string>
+    <string name="your_shopping_cart">Your shopping cart</string>
+    <string name="btn_order">Order</string>
 </resources>

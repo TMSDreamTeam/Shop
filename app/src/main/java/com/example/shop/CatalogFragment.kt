@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.fragment_catalog.*
 
 
-
 class CatalogFragment : Fragment(),RecyclerItemAdapter.ItemClick {
 
     override fun onCreateView(

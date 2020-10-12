@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import kotlinx.android.synthetic.main.fragment_catalog.*
 import kotlinx.android.synthetic.main.fragment_catalog.topAppBar
 import kotlinx.android.synthetic.main.fragment_menu.*
 
@@ -32,6 +31,7 @@ class MenuFragment : Fragment(),RecyclerMenuAdapter.MenuClick  {
                 when (i) {
                     in 0..9 -> Catalog.catalogPhone.add(Item(names[i], prices[i], urls[i], descriptions[i]))
                     in 10..19 -> Catalog.catalogTv.add(Item(names[i], prices[i], urls[i], descriptions[i]))
+                    in 20..29 -> Catalog.catalogHeadphones.add(Item(names[i], prices[i], urls[i], descriptions[i]))
                 }
             }
         }
@@ -66,6 +66,7 @@ class MenuFragment : Fragment(),RecyclerMenuAdapter.MenuClick  {
         when(btn) {
             "Phone" -> Catalog.catalogTemp.addAll(Catalog.catalogPhone)
             "Tv" -> Catalog.catalogTemp.addAll(Catalog.catalogTv)
+            "Headphones" -> Catalog.catalogTemp.addAll(Catalog.catalogHeadphones)
         }
         findNavController().navigate(R.id.action_menuFragment_to_fragment_catalog)
     }
