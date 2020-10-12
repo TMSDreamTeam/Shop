@@ -37,7 +37,7 @@ class MenuFragment : Fragment(),RecyclerMenuAdapter.MenuClick  {
         }
 
         val viewManager = LinearLayoutManager(context)
-        val viewAdapter = RecyclerMenuAdapter(MenuSet.getMenu(), this)
+        val viewAdapter = RecyclerMenuAdapter(Menu.getMenu(), this)
 
         recyclerView_Menu.apply {
             setHasFixedSize(true)

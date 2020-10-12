@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_menu_view.view.*
 
-class RecyclerMenuAdapter(private  val listMenu: List<Menu>, private val fragment : Fragment) : RecyclerView.Adapter <RecyclerMenuAdapter.MenuViewHolder>() {
+class RecyclerMenuAdapter(private  val listMenu: List<MenuItem>, private val fragment : Fragment) : RecyclerView.Adapter <RecyclerMenuAdapter.MenuViewHolder>() {
 
     interface MenuClick {
         fun onBtnMenu(btn:String)
