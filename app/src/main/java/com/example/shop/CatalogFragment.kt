@@ -24,16 +24,10 @@ class CatalogFragment : Fragment(),RecyclerItemAdapter.ItemClick {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val names = resources.getStringArray(R.array.product_names)
-        val prices = resources.getStringArray(R.array.product_prices)
-        val urls = resources.getStringArray(R.array.product_image_urls)
-        val descriptions = resources.getStringArray(R.array.product_descriptions)
-        for (i in names.indices) {
-            Catalog.catalog.add(Item(names[i], prices[i], urls[i], descriptions[i]))
-        }
+
 
         val viewManager = LinearLayoutManager(context)
-        val viewAdapter = RecyclerItemAdapter(Catalog.catalog,this)
+        val viewAdapter = RecyclerItemAdapter(Catalog.catalogTemp,this)
 
         recyclerView_catalog.apply {
             setHasFixedSize(true)

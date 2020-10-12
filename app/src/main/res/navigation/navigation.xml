@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/fragment_catalog">
+    app:startDestination="@id/menuFragment">
     <fragment
         android:id="@+id/fragment_catalog"
         tools:layout="@layout/fragment_catalog"
@@ -45,5 +45,20 @@
         <action
             android:id="@+id/action_fragment_cart_to_fragment_description"
             app:destination="@id/fragment_description" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.shop.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_fragment_catalog"
+            app:destination="@id/fragment_catalog" />
+        <action
+            android:id="@+id/action_menuFragment_to_fragment_cart"
+            app:destination="@id/fragment_cart" />
+        <action
+            android:id="@+id/action_menuFragment_to_fragment_registration"
+            app:destination="@id/fragment_registration" />
     </fragment>
 </navigation>
